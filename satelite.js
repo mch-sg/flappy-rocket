@@ -11,7 +11,7 @@ class Satelite extends GameObject {
         this.image.src = "../assets/images/satelite.png"; 
         this.xPosition = spawnXPosition;
         this.yPosition = randomBetween(0, canvas.height);
-        this.xSpeed = -21.5;
+        this.xSpeed = -50.5;
         this.hitboxRadius = 35;
         this.oscillilationScale = randomBetween(0, 1); // randomBetween(0, 500)
         this.oscillilationTime = 0;
