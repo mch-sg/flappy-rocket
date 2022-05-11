@@ -57,7 +57,6 @@ class Rocket extends GameObject {
         // Push new money bag when score reaches 50. score.addPoints(1) is added to prevent spamming.
         if(gameState == "action" && score.value == 50) {
             bags.push(new bag());
-            bag.timeSinceLastSpawn = 0;
             score.addPoints(1);
         }
 
