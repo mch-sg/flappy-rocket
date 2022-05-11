@@ -5,7 +5,7 @@ class Rocket extends GameObject {
         let drawOrder = 5;
         super(drawOrder);
         this.xPosition = 300;
-        this.yPosition = 300;
+        this.yPosition = 450;
         this.ySpeed = 0;
         this.beginningYAccelleration = 0.7;
         this.yAccelleration = 0;
