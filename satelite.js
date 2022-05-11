@@ -14,7 +14,7 @@ class Satelite extends GameObject {
         this.xSpeed = -50.5;
         this.hitboxRadius = 35;
         this.oscillilationScale = randomBetween(0, 1); // randomBetween(0, 500)
-        this.oscillilationTime = 0;
+        this.oscillilationTime = 1;
         this.oscillilationSpeed = randomBetween(0, 0.001); // randomBetween(0, 0.1)
     }
 
